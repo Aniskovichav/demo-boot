@@ -22,7 +22,7 @@ public class User {
     private String email;
 
     @ManyToOne
-    @JoinColumn(name = "roles")
+    @JoinColumn(name = "role_id")
     private Role role;
 
 }

@@ -5,6 +5,7 @@ import lombok.Data;
 
 @Entity
 @Data
+@Table(name = "roles")
 public class Role {
 
     @Id
@@ -16,4 +17,6 @@ public class Role {
 
     @Column(name="description", nullable=false)
     private String description;
+
+
 }
