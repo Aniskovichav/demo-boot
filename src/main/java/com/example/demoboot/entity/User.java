@@ -1,4 +1,4 @@
-package com.example.demoboot.model;
+package com.example.demoboot.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -21,7 +21,8 @@ public class User {
     @Column(name="email", nullable=false)
     private String email;
 
-    @Column(name="role", nullable=false)
+    @ManyToOne
+    @JoinColumn(name = "roles")
     private Role role;
 
 }

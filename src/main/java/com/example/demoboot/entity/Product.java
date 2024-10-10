@@ -1,4 +1,4 @@
-package com.example.demoboot.model;
+package com.example.demoboot.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

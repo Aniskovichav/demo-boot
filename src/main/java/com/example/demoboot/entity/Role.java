@@ -1,9 +1,7 @@
-package com.example.demoboot.model;
+package com.example.demoboot.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
-import java.util.Set;
 
 @Entity
 @Data
@@ -18,9 +16,4 @@ public class Role {
 
     @Column(name="description", nullable=false)
     private String description;
-
-    @ManyToOne()
-    @Column(name="users")
-    private Set<User> users;
-
 }
