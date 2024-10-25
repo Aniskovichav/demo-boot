@@ -58,5 +58,7 @@ public class SecurityConfig {
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(customUserDetailsService).passwordEncoder(passwordEncoder());
 
+        //JSR 330 250 107 380
+        //CGlib, JDK Dinamic Proxy -> Bit Buddy
     }
 }
