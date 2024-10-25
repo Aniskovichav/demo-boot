@@ -60,5 +60,15 @@ public class SecurityConfig {
 
         //JSR 330 250 107 380
         //CGlib, JDK Dinamic Proxy -> Bit Buddy
+        // Micro profile
+        //паттернты GOF, SOLID, GRASPS, DRY, KISS
+        //SOA vs microservices
+        // DDD
+        //Camunda, BPM flow
+        //SWF
+        //Docker
+        //leeckvy base, GWT token
+        //Vaadin
+
     }
 }
