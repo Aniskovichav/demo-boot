@@ -68,7 +68,8 @@ public class SecurityConfig {
         //SWF
         //Docker
         //leeckvy base, GWT token
-        //Vaadin
+        //Vaadin, PWA
+        //firebase, vrsl (versel)
 
     }
 }
