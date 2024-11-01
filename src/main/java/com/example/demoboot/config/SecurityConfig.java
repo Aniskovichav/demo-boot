@@ -70,6 +70,105 @@ public class SecurityConfig {
         //leeckvy base, GWT token
         //Vaadin, PWA
         //firebase, vrsl (versel)
+        //maven plugin gen java protegeproject/maven-code-gen-plugin
+        //https://github.com/protegeproject/maven-code-gen-plugin
+
+//        st@A503PC3 MINGW64 ~
+//                $ sdk install java 23-oracle
+//
+//        Downloading: java 23-oracle
+//
+//        In progress...
+//
+//######################################################################## 100,0%
+//
+//                Installing: java 23-oracle
+//        Done installing!
+//
+//
+//                Setting java 23-oracle as default.
+//
+//        st@A503PC3 MINGW64 ~
+//                $ sdk install java 23-open
+//
+//        Downloading: java 23-open
+//
+//        In progress...
+//
+//######################################################################## 100,0%
+//
+//                Installing: java 23-open
+//        Done installing!
+//
+//
+//                Setting java 23-open as default.
+//
+//        st@A503PC3 MINGW64 ~
+//                $ sdk list groove
+//
+//        Stop! groove is not a valid candidate.
+//
+//                st@A503PC3 MINGW64 ~
+//                $ sdk list java
+//
+//        st@A503PC3 MINGW64 ~
+//                $ sdk list groovy
+//
+//        st@A503PC3 MINGW64 ~
+//                $ sdk install groovy 5.0.0
+//
+//        Stop! groovy 5.0.0 is not available. Possible causes:
+// * 5.0.0 is an invalid version
+// * groovy binaries are incompatible with your platform
+//                * groovy has not been released yet
+//
+//        Tip: see all available versions for your platform:
+//
+//        $ sdk list groovy
+//
+//        st@A503PC3 MINGW64 ~
+//                $ sdk list groovy
+//
+//        st@A503PC3 MINGW64 ~
+//                $ sdk install groovy 4.0.23
+//
+//        Downloading: groovy 4.0.23
+//
+//        In progress...
+//
+//######################################################################## 100,0%
+//
+//                Installing: groovy 4.0.23
+//        Done installing!
+//
+//
+//                Setting groovy 4.0.23 as default.
+//        $ sdk list gradle
+//
+//        st@A503PC3 MINGW64 ~
+//                $ $ sdk list gradle
+//        bash: $: command not found
+//
+//        st@A503PC3 MINGW64 ~
+//                $ sdk list gradle
+//
+//        st@A503PC3 MINGW64 ~
+//                $ sdk install gradle 8.10
+//
+//        Downloading: gradle 8.10
+//
+//        In progress...
+//
+//######################################################################## 100,0%-#O#- #   #                                            ######################################################################## 100,0%
+//
+//                Installing: gradle 8.10
+//        Done installing!
+//
+//
+//                Setting gradle 8.10 as default.
+//
+//        st@A503PC3 MINGW64 ~
+//                $
 
     }
 }
